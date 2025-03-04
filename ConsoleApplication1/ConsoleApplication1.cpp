@@ -39,11 +39,10 @@ void saveStory(const string& story) {
 int main() {
     srand(static_cast<unsigned int>(time(nullptr))); 
 
-
-    vector<string> heroes = { "Brave Knight", "Cunning Thief", "Wizard", "Fearless Pirate", "Daring Explorer" };
-    vector<string> places = { "in a distant kingdom", "at an abandoned factory", "in a dense forest", "in the vastness of space", "at the foot of the mountains" };
-    vector<string> actions = { "defeated a dragon", "discovered treasures", "won a battle", "hosted a ball", "uncovered an ancient mystery" };
-    vector<string> details = { "with a magic sword", "on a flying carpet", "to the sounds of magical music", "with incredible strength", "accompanied by a magical creature" };
+    vector<string> heroes = { "detective", "wise elder", "time traveler", "mysterious stranger", "fearless princess" };
+    vector<string> places = { "in an abandoned castle", "on a distant planet", "in an underground city", "at the top of a skyscraper", "in a hidden laboratory" };
+    vector<string> actions = { "uncovered a great mystery", "discovered an artifact", "changed the course of history", "saved the world from catastrophe", "exposed a conspiracy" };
+    vector<string> details = { "with the help of an ancient scroll", "accompanied by a talking animal", "during a solar eclipse", "using supernatural powers", "thanks to a mysterious ally" };
 
     char playAgain;
     do {
